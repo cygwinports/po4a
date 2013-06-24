@@ -1,7 +1,0 @@
-inherit perl
-
-DESCRIPTION="Tools for translating various file formats with gettext"
-HOMEPAGE="http://alioth.debian.org/projects/po4a/"
-SRC_URI="mirror://debian/pool/main/${PN:0:1}/${PN}/${PN}_${PV}.orig.tar.gz"
-
-DIFF_EXCLUDES="*.po"
